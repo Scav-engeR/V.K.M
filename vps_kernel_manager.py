@@ -738,7 +738,7 @@ class PerformanceBenchmark:
     
     def run_disk_benchmark(self) -> Dict:
         """Run disk I/O benchmark"""
-                    results = {}
+        results = {}
         try:
             # Check current I/O scheduler
             schedulers = {}
